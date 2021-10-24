@@ -1,0 +1,258 @@
+
+body{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #333333;
+}
+
+header{
+    margin: 0 auto;
+}
+
+
+.subheader{
+    font-size: .8125rem;
+    font-weight: 100;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+.phone a:hover{
+    color:rgb(218, 161,88);
+}
+
+.infobar{
+    display: flex;
+    color:#333333;
+    font: 13px;
+    align-self: center;
+}
+
+
+.infobar > div{
+    margin: 5px 68px 5px 0px;
+}
+
+.phone>a{
+    color:#333333;
+}
+
+.fas ,.far{
+    color: #daa158;
+    margin-right: 10px;
+}
+
+button{
+    border: none;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.searchbar{
+    align-self: center;
+}
+
+.searchbar i:hover{
+    color:rgb(218, 161,88);
+}
+
+input{
+    width: 196px;
+    height: 40px;
+    padding: 7px 40px 7px 23px;
+    border: none;
+    border-radius: 0;
+    background-color: #f7f7f7;
+}
+
+
+.listofsocial{
+    display: flex;
+    padding: 6.5px 15px ;
+    align-self: center;
+
+}
+
+.logosocial{
+    padding: 10px;
+    align-self: center;
+}
+
+
+.mainheader{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 16px;
+    padding:31px 0px 28px;
+    height: 116px;
+    margin:0 200px;
+}
+
+.sitelogo{
+    align-self: center;
+    width:20%; 
+    padding: 16px 0;
+    margin-left:70px;
+}
+
+.mainnav{
+    background-color: white;
+    width: 80%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    padding-right: 16px;
+    text-align: left;
+}
+
+.item a{
+    color:#333333;
+}
+
+
+.menu a{
+    padding: 14px 0px;
+
+}
+
+.item:not(.logo) a:hover{
+    color:rgb(218, 161,88);
+}
+
+
+.logo a{
+    font-size: 22px;
+    padding: 7.5px 10px 7.5px 0;
+    margin:50px;
+    color: rgb(218, 161,88);
+}
+
+.item{
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.aafoodservice.com/wp-content/themes/custom-theme/img/slider-v1704.jpg");
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:149px 15px 280px 15px; 
+} 
+
+
+h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: Satisfy, handwriting;
+    letter-spacing: 0px;
+    color: #daa158;
+    text-transform: none;
+    margin-bottom: 13px;
+}
+
+h2{
+    font-size: 44px;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: Montserrat, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 67px;
+}
+
+
+.resButton{
+    background-color: #daa158;
+    border-color: #daa158;
+    color: white;
+    
+}
+
+.content a{
+    text-decoration: none;
+    min-width: 195px;
+    line-height: 1;
+    text-transform: uppercase;
+    max-width: 100%;
+    padding: 27px 85px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.content a:hover{
+    background-color: rgb(195,138,65);
+    border-color: rgb(195,138,65);
+}
+
+.listofsocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    align-self: center;
+}
+
+.logosocial{
+    block-size: 25px;
+}
+
+
+ul li a{
+    color: black;
+    block-size: 25px;
+}
+
+
+ul li .logosocial:hover{
+    background-color:rgb(218, 161,88);
+}
+
+.logosocial i.fab{
+    transition-duration: 1s;
+}
